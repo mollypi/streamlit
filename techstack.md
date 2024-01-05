@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 mollypi/streamlit is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Python](https://www.python.org) – Languages
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -31,11 +32,13 @@ mollypi/streamlit is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 mollypi/streamlit is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -65,14 +68,15 @@ mollypi/streamlit is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mollypi/streamlit](https://github.com/mollypi/streamlit)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|109<br/>Tools used|11/15/23 <br/>Report generated|
+|109<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -430,20 +434,20 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[black](https://pypi.org/black)|v22.3.0|05/16/22|Amanda Walker |MIT|N/A|
-|[hypothesis](https://pypi.org/hypothesis)|v6.17.4|09/16/21|Amanda Walker |MPL-2.0|N/A|
-|[mypy](https://pypi.org/mypy)|v0.981|09/26/22|Tim Conkling |MIT|N/A|
-|[pipenv](https://pypi.org/pipenv)|N/A|07/12/22|Vincent Donato |MIT|N/A|
-|[pre-commit](https://pypi.org/pre-commit)|N/A|08/08/22|Tomasz Szerszen |MIT|N/A|
-|[pytest](https://pypi.org/pytest)|N/A|07/12/22|Vincent Donato |MIT|N/A|
-|[pytest-cov](https://pypi.org/pytest-cov)|N/A|07/12/22|Vincent Donato |MIT|N/A|
-|[requests-mock](https://pypi.org/requests-mock)|N/A|09/21/22|Kamil Breguła |Apache-2.0|N/A|
-|[setuptools](https://pypi.org/setuptools)|v65.5.1|01/23/23|Maya Barnes |MIT|N/A|
-|[testfixtures](https://pypi.org/testfixtures)|N/A|07/12/22|Vincent Donato |MIT|N/A|
-|[twine](https://pypi.org/twine)|N/A|01/24/19|armando atienza |Apache-2.0|N/A|
-|[wheel](https://pypi.org/wheel)|N/A|01/24/19|armando atienza |MIT|N/A|
+|[black](https://pypi.org/project/black)|v22.3.0|05/16/22|Amanda Walker |MIT|N/A|
+|[hypothesis](https://pypi.org/project/hypothesis)|v6.17.4|09/16/21|Amanda Walker |MPL-2.0|N/A|
+|[mypy](https://pypi.org/project/mypy)|v0.981|09/26/22|Tim Conkling |MIT|N/A|
+|[pipenv](https://pypi.org/project/pipenv)|N/A|07/12/22|Vincent Donato |MIT|N/A|
+|[pre-commit](https://pypi.org/project/pre-commit)|N/A|08/08/22|Tomasz Szerszen |MIT|N/A|
+|[pytest](https://pypi.org/project/pytest)|N/A|07/12/22|Vincent Donato |MIT|N/A|
+|[pytest-cov](https://pypi.org/project/pytest-cov)|N/A|07/12/22|Vincent Donato |MIT|N/A|
+|[requests-mock](https://pypi.org/project/requests-mock)|N/A|09/21/22|Kamil Breguła |Apache-2.0|N/A|
+|[setuptools](https://pypi.org/project/setuptools)|v65.5.1|01/23/23|Maya Barnes |MIT|N/A|
+|[testfixtures](https://pypi.org/project/testfixtures)|N/A|07/12/22|Vincent Donato |MIT|N/A|
+|[twine](https://pypi.org/project/twine)|N/A|01/24/19|armando atienza |Apache-2.0|N/A|
+|[wheel](https://pypi.org/project/wheel)|N/A|01/24/19|armando atienza |MIT|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
