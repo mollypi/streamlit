@@ -1,7 +1,8 @@
 repo_name: mollypi/streamlit
 report_id: 5a04d90ba6f8fca558f8d0db6fea868d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:36:02+00:00'
+timestamp: '2024-01-05T08:43:00+00:00'
 requested_by: snyk-bot
 provider: github
 branch: develop
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: Matplotlib
   description: A plotting library for the Python programming language
@@ -54,6 +59,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/test-requirements.txt
   detection_source: lib/test-requirements.txt
   last_updated_by: Tim Conkling
   last_updated_on: 2021-10-06 22:29:20.000000000 Z
@@ -66,7 +72,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/declarations/apache-arrow/package.json
+  detection_source: component-lib/declarations/apache-arrow/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
 - name: Plotly.js
@@ -78,7 +85,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2385/default_86d9af5b442d21446483d9bae3af24a4cee7d792.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -91,7 +98,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source_url: lib/Pipfile
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -105,8 +112,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-14 00:07:34.000000000 Z
 - name: Babel
@@ -119,7 +126,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -134,7 +141,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-24 19:27:22.000000000 Z
@@ -147,6 +154,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -157,7 +165,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/.eslintrc
+  detection_source: frontend/.eslintrc
   last_updated_by: Henrikh Kantuni
   last_updated_on: 2019-09-07 16:25:05.000000000 Z
 - name: Enzyme
@@ -170,7 +179,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-20 19:27:48.000000000 Z
@@ -182,6 +191,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -191,7 +201,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/semgrep.yml"
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/.github/workflows/cli-regression.yml
+  detection_source: ".github/workflows/cli-regression.yml"
   last_updated_by: Tim Conkling
   last_updated_on: 2023-01-17 17:56:09.000000000 Z
 - name: Jest
@@ -204,8 +215,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: frontend/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
 - name: Prettier
@@ -218,7 +229,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -230,6 +241,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/test-requirements-with-tensorflow.txt
   detection_source: lib/test-requirements-with-tensorflow.txt
   last_updated_by: Tim Conkling
   last_updated_on: 2021-12-14 22:45:41.000000000 Z
@@ -243,7 +255,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -255,7 +267,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/yarn.lock
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
 - name: npm
@@ -266,6 +279,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/package.json
   detection_source: frontend/package.json
   last_updated_by: Adrien Treuille
   last_updated_on: 2018-01-11 22:09:54.000000000 Z
@@ -277,6 +291,7 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/1640/cvosutVr_400x400.jpg
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/package.json
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-20 19:27:48.000000000 Z
@@ -291,7 +306,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -304,7 +319,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2022-12-29 23:38:10.000000000 Z
@@ -319,7 +334,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-05 02:04:39.000000000 Z
@@ -333,7 +348,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-05 05:56:03.000000000 Z
@@ -347,7 +362,7 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
-  detection_source_url: lib/test-requirements.txt
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/test-requirements.txt
   detection_source: lib/test-requirements.txt
   last_updated_by: Thiago Teixeira
   last_updated_on: 2020-05-11 09:54:17.000000000 Z
@@ -360,6 +375,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mollypi/streamlit
   detection_source: Repo Metadata
 - name: TensorFlow
   description: Open Source Software Library for Machine Intelligence
@@ -371,7 +387,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
-  detection_source_url: lib/test-requirements-with-tensorflow.txt
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/test-requirements-with-tensorflow.txt
   detection_source: lib/test-requirements-with-tensorflow.txt
   last_updated_by: willhuang1997
   last_updated_on: 2022-02-05 23:19:15.000000000 Z
@@ -385,7 +401,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -399,7 +415,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -413,7 +429,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-24 19:27:22.000000000 Z
@@ -427,7 +443,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -442,7 +458,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -457,7 +473,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -471,7 +487,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17747/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -485,7 +501,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -499,7 +515,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18733/default_896e971e78d35d9228342aa32100298402d2473b.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -513,8 +529,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
 - name: "@types/lodash"
@@ -527,7 +543,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -541,8 +557,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/declarations/apache-arrow/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
 - name: "@types/react"
@@ -555,8 +571,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-14 00:07:34.000000000 Z
 - name: "@types/react-dom"
@@ -569,8 +585,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-14 00:07:34.000000000 Z
 - name: "@types/react-transition-group"
@@ -583,7 +599,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -597,7 +613,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -611,7 +627,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -625,7 +641,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -639,7 +655,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17220/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -653,7 +669,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16609/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-01 18:32:07.000000000 Z
@@ -668,7 +684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Ken McGrady
   last_updated_on: 2023-02-10 18:42:38.000000000 Z
@@ -682,7 +698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2022-12-29 23:38:10.000000000 Z
@@ -696,7 +712,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2022-12-29 23:38:10.000000000 Z
@@ -710,7 +726,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16723/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
-  detection_source_url: component-lib/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
   detection_source: component-lib/declarations/apache-arrow/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
@@ -724,7 +740,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17318/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
-  detection_source_url: component-lib/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
   detection_source: component-lib/declarations/apache-arrow/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
@@ -738,7 +754,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Adrien Treuille
   last_updated_on: 2018-01-11 22:09:54.000000000 Z
@@ -753,7 +769,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17811/default_a5001d58dc2685d7e854c9bb8b83b74bce875e37.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Ken McGrady
   last_updated_on: 2023-02-10 18:42:38.000000000 Z
@@ -767,7 +783,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16252/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-07 21:32:12.000000000 Z
@@ -781,7 +797,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -795,7 +811,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -809,7 +825,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -823,7 +839,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -837,7 +853,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -851,7 +867,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -865,7 +881,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -879,7 +895,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16762/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-05 05:56:03.000000000 Z
@@ -893,7 +909,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17926/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-24 19:27:22.000000000 Z
@@ -908,8 +924,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-14 00:07:34.000000000 Z
 - name: immer
@@ -922,7 +938,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -936,7 +952,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -950,7 +966,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17142/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-23 21:59:00.000000000 Z
@@ -964,7 +980,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-07 21:32:12.000000000 Z
@@ -978,7 +994,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -992,7 +1008,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18073/image.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-20 19:27:48.000000000 Z
@@ -1006,7 +1022,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1020,7 +1036,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18702/default_803d9095ae52cd39a90bd905df9c2e4583f75904.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-05 05:56:03.000000000 Z
@@ -1034,7 +1050,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-05 02:04:39.000000000 Z
@@ -1048,7 +1064,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-24 19:27:22.000000000 Z
@@ -1062,7 +1078,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16476/default_2a878d5ab9753668ecaed6b6450bf9952a00bc9b.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1076,7 +1092,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-05 05:56:03.000000000 Z
@@ -1090,7 +1106,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: component-lib/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1104,7 +1120,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16784/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1125,7 +1141,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Ken McGrady
   last_updated_on: 2023-02-10 18:42:38.000000000 Z
@@ -1139,7 +1155,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1153,8 +1169,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: component-lib/yarn.lock
-  detection_source: frontend/package.json
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
+  detection_source: component-lib/package.json
   last_updated_by: Snyk bot
   last_updated_on: 2023-03-14 00:07:34.000000000 Z
 - name: react-dropzone
@@ -1167,7 +1183,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1181,7 +1197,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1195,7 +1211,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Tomek Szerszeń
   last_updated_on: 2023-02-24 09:29:46.000000000 Z
@@ -1210,7 +1226,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1224,7 +1240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1238,7 +1254,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16918/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Ken McGrady
   last_updated_on: 2023-02-10 18:42:38.000000000 Z
@@ -1252,7 +1268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1266,7 +1282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17561/default_99afdc7126f8a31ae778ef58d50c93ae3dd88880.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-20 19:27:48.000000000 Z
@@ -1280,7 +1296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16880/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Daniel Caminos
   last_updated_on: 2019-09-24 20:44:34.000000000 Z
@@ -1294,7 +1310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: component-lib/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/component-lib/yarn.lock
   detection_source: component-lib/declarations/apache-arrow/package.json
   last_updated_by: Tim Conkling
   last_updated_on: 2020-08-27 16:37:19.000000000 Z
@@ -1308,7 +1324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
@@ -1322,13 +1338,13 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: frontend/yarn.lock
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/frontend/yarn.lock
   detection_source: frontend/package.json
   last_updated_by: Maya Barnes
   last_updated_on: 2023-02-08 05:37:41.000000000 Z
 - name: black
   description: The uncompromising code formatter
-  package_url: https://pypi.org/black
+  package_url: https://pypi.org/project/black
   version: 22.3.0
   license: MIT
   open_source: true
@@ -1336,13 +1352,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
-  detection_source_url: lib/Pipfile
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Amanda Walker
   last_updated_on: 2022-05-16 19:36:49.000000000 Z
 - name: hypothesis
   description: A library for property-based testing
-  package_url: https://pypi.org/hypothesis
+  package_url: https://pypi.org/project/hypothesis
   version: 6.17.4
   license: MPL-2.0
   open_source: true
@@ -1350,13 +1366,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20178/default_cce94831138206ab61e361b18c1d852a1e5ab6a1.png
-  detection_source_url: lib/Pipfile
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Amanda Walker
   last_updated_on: 2021-09-16 00:59:40.000000000 Z
 - name: mypy
   description: Optional static typing for Python
-  package_url: https://pypi.org/mypy
+  package_url: https://pypi.org/project/mypy
   version: '0.981'
   license: MIT
   open_source: true
@@ -1364,74 +1380,79 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
-  detection_source_url: lib/Pipfile
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Tim Conkling
   last_updated_on: 2022-09-26 22:23:07.000000000 Z
 - name: pipenv
   description: Python Development Workflow for Humans
-  package_url: https://pypi.org/pipenv
+  package_url: https://pypi.org/project/pipenv
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20516/default_35c96ceb69f6db523362c5b30e575b2d4ddfcab3.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Vincent Donato
   last_updated_on: 2022-07-12 23:35:05.000000000 Z
 - name: pre-commit
   description: A framework for managing and maintaining multi-language pre-commit
     hooks
-  package_url: https://pypi.org/pre-commit
+  package_url: https://pypi.org/project/pre-commit
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Tomasz Szerszen
   last_updated_on: 2022-08-08 12:01:52.000000000 Z
 - name: pytest
   description: 'Pytest: simple powerful testing with Python'
-  package_url: https://pypi.org/pytest
+  package_url: https://pypi.org/project/pytest
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Vincent Donato
   last_updated_on: 2022-07-12 23:35:05.000000000 Z
 - name: pytest-cov
   description: Pytest plugin for measuring coverage
-  package_url: https://pypi.org/pytest-cov
+  package_url: https://pypi.org/project/pytest-cov
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Vincent Donato
   last_updated_on: 2022-07-12 23:35:05.000000000 Z
 - name: requests-mock
   description: Mock out responses from the requests package
-  package_url: https://pypi.org/requests-mock
+  package_url: https://pypi.org/project/requests-mock
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20365/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Kamil Breguła
   last_updated_on: 2022-09-21 21:51:30.000000000 Z
 - name: setuptools
   description: Easily download
-  package_url: https://pypi.org/setuptools
+  package_url: https://pypi.org/project/setuptools
   version: 65.5.1
   license: MIT
   open_source: true
@@ -1439,43 +1460,46 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
-  detection_source_url: lib/Pipfile
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Maya Barnes
   last_updated_on: 2023-01-23 05:02:04.000000000 Z
 - name: testfixtures
   description: A collection of helpers and mock objects for unit tests and doc tests
-  package_url: https://pypi.org/testfixtures
+  package_url: https://pypi.org/project/testfixtures
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20450/default_59d62a07c53d1fab2755686ea36d4608e808dcf6.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: Vincent Donato
   last_updated_on: 2022-07-12 23:35:05.000000000 Z
 - name: twine
   description: Collection of utilities for publishing packages on PyPI
-  package_url: https://pypi.org/twine
+  package_url: https://pypi.org/project/twine
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19935/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: armando atienza
   last_updated_on: 2019-01-24 21:08:59.000000000 Z
 - name: wheel
   description: A built-package format for Python
-  package_url: https://pypi.org/wheel
+  package_url: https://pypi.org/project/wheel
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19889/default_7182952cb92ae36151a754e2592ac68e6e6340df.png
+  detection_source_url: https://github.com/mollypi/streamlit/blob/develop/lib/Pipfile
   detection_source: lib/Pipfile
   last_updated_by: armando atienza
   last_updated_on: 2019-01-24 20:13:49.000000000 Z
